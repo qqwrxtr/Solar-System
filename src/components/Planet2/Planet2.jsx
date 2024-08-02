@@ -18,8 +18,8 @@ const Planet2 = () => {
     }, []);
 
     const calculateTransform = () => {
-        const offsetX = (window.innerWidth / 2 - mousePosition.x) * 0.1;
-        const offsetY = (window.innerHeight / 2 - mousePosition.y) * 0.1;
+        const offsetX = (mousePosition.x - window.innerWidth / 2) * 0.25;
+        const offsetY = (mousePosition.y - window.innerHeight / 2) * 0.15;
         return `translate(${offsetX}px, ${offsetY}px)`;
     };
 
