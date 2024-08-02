@@ -8,6 +8,23 @@ const Stars = () => {
 
   const getRandomSize = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
+  const colors = [
+    "#8a2be2", // BlueViolet
+    "#4b0082", // Indigo
+    "#6a0dad", // Purple
+    "#ff00ff", // Magenta
+    "#ff1493", // DeepPink
+    "#9400d3", // DarkViolet
+    "#8b008b", // DarkMagenta
+    "#c71585", // MediumVioletRed
+    "#da70d6", // Orchid
+    "#d8bfd8", // Thistle
+    "#FFFFFF" // White
+  ];
+  
+
+  const getRandomColor = () => colors[Math.floor(Math.random() * colors.length)];
+
   useEffect(() => {
     const width = window.innerWidth;
     const height = window.innerHeight;
@@ -17,7 +34,8 @@ const Stars = () => {
     const generatedStars = Array.from({ length: numStars }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
-      size: getRandomSize(1, 2),
+      size: getRandomSize(1, 3),
+      color: getRandomColor(),
     }));
 
     setStars(generatedStars);
@@ -56,7 +74,7 @@ const Stars = () => {
               top: `${star.y + distanceY}px`,
               width: `${star.size}px`,
               height: `${star.size}px`,
-              backgroundColor: 'white',
+              backgroundColor: `${star.color}`,
               borderRadius: '50%',
               pointerEvents: 'none',
             }}
