@@ -28,8 +28,6 @@ const Stars = () => {
   useEffect(() => {
     const width = window.innerWidth;
     const height = window.innerHeight;
-    const centerX = width / 2;
-    const centerY = height / 2;
 
     const generatedStars = Array.from({ length: numStars }, () => ({
       x: Math.random() * width,
@@ -57,7 +55,7 @@ const Stars = () => {
         const distanceFromCenterX = Math.abs(star.x - window.innerWidth / 2);
         const distanceFromCenterY = Math.abs(star.y - window.innerHeight / 2);
         const distanceFromCenter = Math.sqrt(distanceFromCenterX ** 2 + distanceFromCenterY ** 2);
-        
+
         const maxDistance = Math.sqrt((window.innerWidth / 2) ** 2 + (window.innerHeight / 2) ** 2);
         const movementFactor = distanceFromCenter / maxDistance;
 
@@ -67,7 +65,7 @@ const Stars = () => {
         return (
           <div
             key={index}
-            className="star"
+            className="star animation"
             style={{
               position: 'absolute',
               left: `${star.x + distanceX}px`,

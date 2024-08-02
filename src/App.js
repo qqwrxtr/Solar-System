@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import SolarSystem from './components/SolarSystem/Solarsystem';
 import Stars from './components/Stars/Stars';
 
 function App() {
   return (
     <div className="App">
-      <Stars/>
+      <div className='stars'>
+        <Stars/>
+      </div>
+      <div className='solar_system_showcase'>
+        <SolarSystem/>
+      </div>
     </div>
   );
 }

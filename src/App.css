@@ -7,3 +7,13 @@
 body{
   overflow: hidden;
 }
+
+.stars{
+  position: absolute;
+  z-index: 1;
+}
+
+.solar_system_showcase{
+  position: absolute;
+  z-index: 2;
+}
