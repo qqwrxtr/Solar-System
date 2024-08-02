@@ -13,7 +13,20 @@ body{
   z-index: 1;
 }
 
-.solar_system_showcase{
+.astronaut{
   position: absolute;
   z-index: 2;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.astronaut img{
+  max-width: 900px;
+}
+
+.planet-absolute{
+  position: absolute;
+  margin-left: 1000px;
 }

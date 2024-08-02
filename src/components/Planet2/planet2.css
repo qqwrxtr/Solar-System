@@ -1,0 +1,10 @@
+.planet2{
+    position: absolute;
+    z-index: 2;
+}
+
+.planet2 img{
+    max-width: 100px;
+    margin-left: -710px;
+    margin-top: 700px;
+}
