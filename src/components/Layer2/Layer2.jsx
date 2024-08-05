@@ -3,7 +3,7 @@ import planet11 from "./../../assets/img/planet2.png";
 import planet22 from "./../../assets/img/Asset 34.svg";
 import planet33 from "./../../assets/img/Asset 11.svg";
 import planet44 from "./../../assets/img/Asset 24.svg";
-import planet55 from "./../../assets/img/Asset 15.svg";
+import planet55 from "./../../assets/img/Asset 35.svg";
 import planet66 from "./../../assets/img/Asset 16.svg";
 
 import "./layer2.css";
@@ -40,22 +40,22 @@ const Layer2 = () => {
             alt: "Planet 22",
             src: planet22,
         },
-        planet3: {
+        planet31: {
             className: "planet33",
             alt: "Planet 33",
             src: planet33,
         },
-        planet4: {
+        planet41: {
             className: "planet44",
             alt: "Planet 44",
             src: planet44,
         },
-        planet5: {
+        planet51: {
             className: "planet55",
             alt: "Planet 55",
             src: planet55,
         },
-        planet5: {
+        planet61: {
             className: "planet66",
             alt: "Planet 66",
             src: planet66,

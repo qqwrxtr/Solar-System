@@ -25,8 +25,15 @@
 }
 
 .planet44 img{
-    width: 120px !important;
+    width: 150px !important;
     top: 50px;
     left: 1700px;
+    position: absolute;
+}
+
+.planet55 img{
+    width: 100px !important;
+    top: 250px;
+    left: 100px;
     position: absolute;
 }

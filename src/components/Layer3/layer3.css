@@ -3,6 +3,52 @@
     z-index: 2;
 }
 
-.layer3 img{
-    max-width: 100px;
+.planet111 img{
+    width: 50px !important;
+    top: 200px;
+    left: 600px;
+    position: absolute;
+}
+
+.planet222 img{
+    width: 50px !important;
+    top: 500px;
+    left: 600px;
+    position: absolute;
+}
+
+.planet333 img{
+    width: 50px !important;
+    top: 800px;
+    left: 1200px;
+    position: absolute;
+}
+
+
+.planet444 img{
+    width: 50px !important;
+    top: 300px;
+    left: 1500px;
+    position: absolute;
+}
+
+.planet555 img{
+    width: 50px !important;
+    top: 600px;
+    left: 1500px;
+    position: absolute;
+}
+
+.planet666 img{
+    width: 50px !important;
+    top: 100px;
+    left: 1500px;
+    position: absolute;
+}
+
+.planet777 img{
+    width: 50px !important;
+    top: 100px;
+    left: 1000px;
+    position: absolute;
 }
