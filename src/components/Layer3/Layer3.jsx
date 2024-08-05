@@ -5,6 +5,8 @@ import planet333 from "./../../assets/img/Asset 42.svg";
 import planet444 from "./../../assets/img/Asset 45.svg";
 import planet555 from "./../../assets/img/Asset 49.svg";
 import planet666 from "./../../assets/img/Asset 60.svg";
+import planet777 from "./../../assets/img/Asset 50.svg";
+
 
 import "./layer3.css";
 
@@ -64,6 +66,11 @@ const Layer3 = () => {
             className: "planet777",
             alt: "Planet 777",
             src: planet555,
+        },
+        planet811: {
+            className: "planet888",
+            alt: "Planet 888",
+            src: planet777,
         },
     };
 

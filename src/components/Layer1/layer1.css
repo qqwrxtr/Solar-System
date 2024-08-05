@@ -19,7 +19,7 @@
 
 .planet3 img{
     width: 250px !important;
-    top: 500px;
+    top: 400px;
     left: 1500px;
     position: absolute;
 }
@@ -29,6 +29,7 @@
     top: 600px;
     left: 200px;
     position: absolute;
+    
 }
 
 .planet5 img{

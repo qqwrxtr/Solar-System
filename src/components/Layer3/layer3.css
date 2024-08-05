@@ -52,3 +52,10 @@
     left: 1000px;
     position: absolute;
 }
+
+.planet888 img{
+    width: 80px !important;
+    top: 500px;
+    left: 1300px;
+    position: absolute;
+}

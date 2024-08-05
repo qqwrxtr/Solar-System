@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import planet11 from "./../../assets/img/planet2.png";
+import planet11 from "./../../assets/img/Asset 40.svg";
 import planet22 from "./../../assets/img/Asset 34.svg";
 import planet33 from "./../../assets/img/Asset 11.svg";
 import planet44 from "./../../assets/img/Asset 24.svg";
