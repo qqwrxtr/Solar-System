@@ -15,7 +15,7 @@ body{
 
 .astronaut{
   position: absolute;
-  z-index: 2;
+  z-index: 22;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -24,9 +24,9 @@ body{
 
 .astronaut img{
   max-width: 900px;
+  will-change: transform;
 }
 
 .planet-absolute{
   position: absolute;
-  margin-left: 1000px;
 }

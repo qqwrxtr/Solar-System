@@ -1,0 +1,8 @@
+.layer3{
+    position: absolute;
+    z-index: 2;
+}
+
+.layer3 img{
+    max-width: 100px;
+}

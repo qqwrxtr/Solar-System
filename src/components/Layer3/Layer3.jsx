@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import planet from "./../../assets/img/planet2.png";
-import "./planet2.css";
+import planet3 from "./../../assets/img/Asset 11.svg";
+import "./layer3.css";
 
-const Planet2 = () => {
+const Layer3 = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
@@ -18,21 +18,21 @@ const Planet2 = () => {
     }, []);
 
     const calculateTransform = () => {
-        const offsetX = (mousePosition.x - window.innerWidth / 2) * 0.25;
-        const offsetY = (mousePosition.y - window.innerHeight / 2) * 0.15;
+        const offsetX = (mousePosition.x - window.innerWidth / 2) * 0.01;
+        const offsetY = (mousePosition.y - window.innerHeight / 2) * 0.01;
         return `translate(${offsetX}px, ${offsetY}px)`;
     };
 
     return (
-        <div className="planet2">
+        <div className="layer3">
             <img
-                src={planet}
-                alt="Planet2"
-                className="planet2"
+                src={planet3}
+                alt="Layer3"
+                className="layer3"
                 style={{ transform: calculateTransform() }}
             />
         </div>
     );
 };
 
-export default Planet2;
+export default Layer3;

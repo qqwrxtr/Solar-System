@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import astronaut from "./../../assets/img/astronaut.png";
 import "./astronaut.css";
-import Planet from "../Planet/Planet";
-import Planet2 from "../Planet2/Planet2";
 
 const Astronaut = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

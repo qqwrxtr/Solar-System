@@ -1,0 +1,32 @@
+.layer2{
+    position: absolute;
+    z-index: 3;
+}
+
+.planet11 img{
+    width: 150px !important;
+    top: 600px;
+    left: 600px;
+    position: absolute;
+}
+
+.planet22 img{
+    width: 150px !important;
+    top: 600px;
+    left: 1200px;
+    position: absolute;
+}
+
+.planet33 img{
+    width: 120px !important;
+    top: 200px;
+    left: 300px;
+    position: absolute;
+}
+
+.planet44 img{
+    width: 120px !important;
+    top: 50px;
+    left: 1700px;
+    position: absolute;
+}

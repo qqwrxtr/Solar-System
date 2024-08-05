@@ -1,8 +1,9 @@
 import './App.css';
 import Stars from './components/Stars/Stars';
 import Astronaut from './components/Astronaut/Astronaut';
-import Planet from './components/Planet/Planet';
-import Planet2 from './components/Planet2/Planet2';
+import Layer1 from './components/Layer1/Layer1';
+import Layer2 from './components/Layer2/Layer2';
+import Layer3 from './components/Layer3/Layer3';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Astronaut/>
       </div>
       <div className="planet-absolute">
-            <Planet/>
-            <Planet2/>
+            <Layer1/>
+            <Layer2/>
+            <Layer3/>
         </div>
     </div>
   );
